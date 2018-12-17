@@ -59,10 +59,10 @@ public class WifiListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
         ImageView wifiIcon;
         TextView ssid;
         TextView password;
-        ConstraintLayout parentLayout;
+            ConstraintLayout parentLayout;
 
         public ViewHolder(@NonNull View itemView) {
-            super(itemView);
+                super(itemView);
 
             wifiIcon = itemView.findViewById(R.id.wifiIcon);
             ssid = itemView.findViewById(R.id.ssid_textview);
